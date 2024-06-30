@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #325d8a;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.box {
+    width: 300px;
+    height: 300px;
+    background: #6a6868;
+    border-radius: 5%;
+}
+
+button {
+    background-color: #325d8a;
+    height: 30px;
+    width: 225px;
+    border: none;
+}
+
+button:hover {
+    background: #6a6868;
+    color: #08294c;
+    cursor: pointer;
+}
+
+.form-inp {
+    height: 19px;
+    width: 140px;
+    border-radius: 5px;
+    margin: none;
+}    
