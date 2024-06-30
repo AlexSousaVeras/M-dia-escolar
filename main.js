@@ -20,7 +20,7 @@ function calcular(){
     }
 
     else {
-        document.getElementById('resultado').innerText = 'Sua média foi: ' + media1 +', você precia de ' + diferença + ' pontos para está na média!';
+        document.getElementById('resultado').innerText = 'Sua média foi: ' + media1 +', você precisa de ' + diferença + ' pontos para está na média!';
     }
     return false;
     }
