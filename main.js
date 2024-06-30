@@ -17,12 +17,10 @@ function calcular(){
     
     if (media1 >= M){
         document.getElementById('resultado').innerText = 'Sua média foi: ' + media1 +', meus parabéns você está na média!';
-        return false;
     }
 
     else {
         document.getElementById('resultado').innerText = 'Sua média foi: ' + media1 +', você precia de ' + diferença + ' pontos para está na média!';
-        return false;
     }
-
+    return false;
     }
