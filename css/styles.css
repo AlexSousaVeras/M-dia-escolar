@@ -19,6 +19,10 @@ body {
     border-radius: 5%;
 }
 
+h2 {
+    background:#96d3ff;
+}
+
 button {
     background-color: #5ebcff;
     height: 30px;
